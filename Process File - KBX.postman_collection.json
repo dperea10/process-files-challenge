@@ -1,0 +1,204 @@
+{
+	"info": {
+		"_postman_id": "b487941f-4dbb-4378-8f07-94622ee00b19",
+		"name": "Process File - KBX",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23987526"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "test@test.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "test",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3005/api/auth",
+					"host": [
+						"localhost"
+					],
+					"port": "3005",
+					"path": [
+						"api",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Upload File",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "test",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "test@test.com",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "f",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "xlsx",
+							"type": "file",
+							"src": "/Users/dperea/Downloads/formart_file (1).xlsx"
+						},
+						{
+							"key": "name",
+							"value": "file",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3005/api/upload-file?",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3005",
+					"path": [
+						"api",
+						"upload-file"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get UploadFile",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "test",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "test@test.com",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3005/api/upload-file?max=1&page=1&limit=10",
+					"host": [
+						"localhost"
+					],
+					"port": "3005",
+					"path": [
+						"api",
+						"upload-file"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "{\"active\": true}",
+							"disabled": true
+						},
+						{
+							"key": "max",
+							"value": "1"
+						},
+						{
+							"key": "sort",
+							"value": "name",
+							"disabled": true
+						},
+						{
+							"key": "dir",
+							"value": "desc",
+							"disabled": true
+						},
+						{
+							"key": "filter",
+							"value": "prueba3",
+							"disabled": true
+						},
+						{
+							"key": "skip",
+							"value": "17",
+							"disabled": true
+						},
+						{
+							"key": "max",
+							"value": "10",
+							"disabled": true
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "healthCheck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3005/api/health",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3005",
+					"path": [
+						"api",
+						"health"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
