@@ -72,7 +72,7 @@ _6. crear una conexion local a mongo (cuando se ejecute docker, la base de datos
 
 _7. Exportar la collection de postman para usar los enpoints en la raiz del proyecto._
 ```bash
-Process File - KBX.postman_collection.json
+https://github.com/dperea10/process-files-challenge/blob/main/Process%20File%20-%20KBX.postman_collection.json
 ```
 
 

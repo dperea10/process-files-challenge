@@ -1,4 +1,3 @@
-// import { Request } from './../../../node_modules/@types/express-serve-static-core/index.d';
 import { NextFunction, Request, Response } from 'express';
 import userService from "../../services";
 
