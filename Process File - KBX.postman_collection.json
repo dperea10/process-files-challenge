@@ -70,9 +70,9 @@
 					"mode": "formdata",
 					"formdata": [
 						{
-							"key": "xlsx",
+							"key": "XLSX",
 							"type": "file",
-							"src": "/Users/dperea/Downloads/formart_file (1).xlsx"
+							"src": "/Users/dperea/Documents/GITHUB/process-files-challenge/formart_file.xlsx"
 						},
 						{
 							"key": "name",
@@ -123,7 +123,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:3005/api/upload-file?max=1&page=1&limit=10",
+					"raw": "localhost:3005/api/upload-file?q={\"id\": \"d83bde2b-bdfd-48fb-9e2f-b4e5b64d12d6\"}",
 					"host": [
 						"localhost"
 					],
@@ -135,12 +135,12 @@
 					"query": [
 						{
 							"key": "q",
-							"value": "{\"active\": true}",
-							"disabled": true
+							"value": "{\"id\": \"d83bde2b-bdfd-48fb-9e2f-b4e5b64d12d6\"}"
 						},
 						{
 							"key": "max",
-							"value": "1"
+							"value": "1",
+							"disabled": true
 						},
 						{
 							"key": "sort",
@@ -154,7 +154,7 @@
 						},
 						{
 							"key": "filter",
-							"value": "prueba3",
+							"value": "",
 							"disabled": true
 						},
 						{
@@ -169,11 +169,23 @@
 						},
 						{
 							"key": "page",
-							"value": "1"
+							"value": "1",
+							"disabled": true
 						},
 						{
 							"key": "limit",
-							"value": "10"
+							"value": "10",
+							"disabled": true
+						},
+						{
+							"key": "status",
+							"value": "done",
+							"disabled": true
+						},
+						{
+							"key": "id",
+							"value": "c441678b-0573-40d5-aa5e-c2e68414b94c",
+							"disabled": true
 						}
 					]
 				}
