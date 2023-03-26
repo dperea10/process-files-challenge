@@ -1,0 +1,5 @@
+version: '2'
+
+services:
+  process_files:
+    command: npm run dev

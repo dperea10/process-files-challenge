@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Mitzi Bowen",
+    "cuit": "15-28138944-4",
+    "concepts": [
+      4106,
+      7775,
+      1691,
+      6601,
+      3019,
+      7536
+    ],
+    "currentBalance": 282,
+    "active": false,
+    "lastSale": "2015-07-05T02:26:17+05:00"
+  },
+  {
+    "name": "Melissa Ware",
+    "cuit": "47-61488841-8",
+    "concepts": [
+      3386,
+      1402,
+      5691,
+      6667,
+      1834,
+      4492
+    ],
+    "currentBalance": 172,
+    "active": true,
+    "lastSale": "2018-04-10T01:00:11+05:00"
+  },
+  {
+    "name": "Bette Kaufman",
+    "cuit": "86-27933427-8",
+    "concepts": [
+      2200,
+      1570,
+      3858,
+      2767,
+      4223,
+      4354
+    ],
+    "currentBalance": 693,
+    "active": false,
+    "lastSale": "2018-09-20T05:32:23+05:00"
+  },
+  {
+    "name": "Spencer Church",
+    "cuit": "75-23633402-1",
+    "concepts": [
+      4529,
+      6570,
+      1776,
+      5725,
+      5127,
+      5383
+    ],
+    "currentBalance": 661,
+    "active": false,
+    "lastSale": "2019-01-04T08:46:19+05:00"
+  },
+  {
+    "name": "Robbins Patton",
+    "cuit": "80-37311875-8",
+    "concepts": [
+      5594,
+      4464,
+      6914,
+      4452,
+      8393,
+      8475
+    ],
+    "currentBalance": 843,
+    "active": true,
+    "lastSale": "2017-09-05T04:01:15+05:00"
+  },
+  {
+    "name": "Barlow Munoz",
+    "cuit": "61-72421644-2",
+    "concepts": [
+      8773,
+      3084,
+      5041,
+      5753,
+      5083,
+      2043
+    ],
+    "currentBalance": 931,
+    "active": false,
+    "lastSale": "2014-05-09T06:41:59+05:00"
+  },
+  {
+    "name": "John Puckett",
+    "cuit": "74-47386469-6",
+    "concepts": [
+      6755,
+      5889,
+      7401,
+      3116,
+      8029,
+      8013
+    ],
+    "currentBalance": 524,
+    "active": false,
+    "lastSale": "2020-12-03T03:34:51+05:00"
+  },
+  {
+    "name": "Russo Webster",
+    "cuit": "51-38510805-6",
+    "concepts": [
+      4801,
+      4430,
+      5491,
+      2774,
+      8007,
+      4430
+    ],
+    "currentBalance": 699,
+    "active": true,
+    "lastSale": "2019-06-27T01:23:07+05:00"
+  },
+  {
+    "name": "Caldwell Gamble",
+    "cuit": "69-30035656-9",
+    "concepts": [
+      1325,
+      7478,
+      3151,
+      2947,
+      2922,
+      5700
+    ],
+    "currentBalance": 922,
+    "active": false,
+    "lastSale": "2015-08-02T02:44:04+05:00"
+  },
+  {
+    "name": "Lenore Sanders",
+    "cuit": "30-58797545-1",
+    "concepts": [
+      7055,
+      6447,
+      1226,
+      4251,
+      8385,
+      1604
+    ],
+    "currentBalance": 896,
+    "active": false,
+    "lastSale": "2014-05-30T01:04:50+05:00"
+  },
+  {
+    "name": "Garrison Miller",
+    "cuit": "80-39064163-9",
+    "concepts": [
+      8224,
+      7985,
+      6474,
+      2538,
+      7993,
+      6395
+    ],
+    "currentBalance": 768,
+    "active": false,
+    "lastSale": "2020-12-08T08:16:16+05:00"
+  },
+  {
+    "name": "Rivera Cannon",
+    "cuit": "63-23529792-10",
+    "concepts": [
+      8979,
+      5149,
+      2615,
+      1057,
+      1281,
+      7646
+    ],
+    "currentBalance": 896,
+    "active": true,
+    "lastSale": "2022-04-23T08:52:09+05:00"
+  },
+  {
+    "name": "Laura Robbins",
+    "cuit": "27-10110694-5",
+    "concepts": [
+      8875,
+      6687,
+      2237,
+      3970,
+      3938,
+      6624
+    ],
+    "currentBalance": 318,
+    "active": true,
+    "lastSale": "2016-04-11T05:19:21+05:00"
+  },
+  {
+    "name": "Katherine Carver",
+    "cuit": "35-73034904-8",
+    "concepts": [
+      3585,
+      5631,
+      6426,
+      3516,
+      6937,
+      6270
+    ],
+    "currentBalance": 589,
+    "active": true,
+    "lastSale": "2014-08-16T08:02:48+05:00"
+  },
+  {
+    "name": "Marta Stuart",
+    "cuit": "82-65381376-7",
+    "concepts": [
+      3483,
+      5241,
+      4551,
+      8325,
+      4710,
+      4016
+    ],
+    "currentBalance": 825,
+    "active": false,
+    "lastSale": "2016-01-22T04:24:16+05:00"
+  },
+  {
+    "name": "Perkins Avery",
+    "cuit": "14-13203211-7",
+    "concepts": [
+      2542,
+      7893,
+      1613,
+      8698,
+      6581,
+      1204
+    ],
+    "currentBalance": 535,
+    "active": true,
+    "lastSale": "2021-08-18T07:32:02+05:00"
+  },
+  {
+    "name": "Jocelyn Yates",
+    "cuit": "93-30309745-7",
+    "concepts": [
+      1614,
+      8206,
+      1363,
+      8777,
+      1440,
+      4202
+    ],
+    "currentBalance": 950,
+    "active": false,
+    "lastSale": "2014-08-16T12:11:48+05:00"
+  },
+  {
+    "name": "Opal Mcbride",
+    "cuit": "47-95495936-7",
+    "concepts": [
+      5218,
+      1085,
+      6407,
+      5877,
+      3054,
+      6294
+    ],
+    "currentBalance": 799,
+    "active": true,
+    "lastSale": "2018-04-26T09:15:00+05:00"
+  },
+  {
+    "name": "Jill Clark",
+    "cuit": "39-35455494-3",
+    "concepts": [
+      6971,
+      4537,
+      7024,
+      1704,
+      4656,
+      4137
+    ],
+    "currentBalance": 180,
+    "active": true,
+    "lastSale": "2015-01-14T05:36:23+05:00"
+  },
+  {
+    "name": "Marianne Dean",
+    "cuit": "28-97337476-8",
+    "concepts": [
+      3117,
+      7295,
+      3275,
+      7785,
+      5299,
+      4039
+    ],
+    "currentBalance": 617,
+    "active": true,
+    "lastSale": "2017-03-04T02:28:32+05:00"
+  },
+  {
+    "name": "Callahan Booker",
+    "cuit": "56-17133713-4",
+    "concepts": [
+      3391,
+      2067,
+      8532,
+      8549,
+      1576,
+      8916
+    ],
+    "currentBalance": 849,
+    "active": true,
+    "lastSale": "2018-07-13T10:20:26+05:00"
+  },
+  {
+    "name": "Best Harrington",
+    "cuit": "79-40124213-4",
+    "concepts": [
+      5256,
+      8946,
+      7754,
+      2546,
+      7537,
+      6368
+    ],
+    "currentBalance": 865,
+    "active": true,
+    "lastSale": "2014-01-28T03:19:57+05:00"
+  },
+  {
+    "name": "Munoz Webb",
+    "cuit": "43-73781299-5",
+    "concepts": [
+      7677,
+      1805,
+      7049,
+      7899,
+      7010,
+      8900
+    ],
+    "currentBalance": 422,
+    "active": false,
+    "lastSale": "2017-10-15T11:52:43+05:00"
+  },
+  {
+    "name": "Rae Powers",
+    "cuit": "30-51891976-7",
+    "concepts": [
+      5174,
+      6747,
+      3311,
+      5107,
+      2672,
+      6057
+    ],
+    "currentBalance": 487,
+    "active": false,
+    "lastSale": "2016-10-08T08:11:00+05:00"
+  }
+]

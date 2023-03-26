@@ -1,0 +1,34 @@
+version: "2"
+services:
+  process_files:
+    build: .
+    env_file: .env
+    environment:
+      - DATABASE_HOST=mongodb
+      - DATABASE_PORT=27017
+      - DATABASE_DBNAME=process_files
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongodb
+      - redis
+
+  mongodb:
+    image: mongo
+    ports:
+      - "27017:27017"
+
+  redis:
+    image: redis
+    container_name: redis_process
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+volumes:
+  mongodb_data:
+  redis_data:
